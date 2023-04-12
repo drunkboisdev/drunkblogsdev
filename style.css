@@ -1,0 +1,66 @@
+body {
+    background-color: #ffbfd0;
+}
+
+.window {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #707070;
+    filter: drop-shadow(2px 2px 0.4rem #aaaaaa);
+}
+
+#image {
+    position: absolute;
+}
+
+.ui {
+    font-family: "Segoe UI";
+    display: inline-block;
+    width: 100%;
+    cursor: default;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.title {
+    font-size: 12px;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    position: absolute;
+    right: 0px;
+}
+
+.tools {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+ul {
+    margin: 0px;
+    margin-top: -7px;
+    margin-left: 6px;
+    padding: 0px;
+}
+
+.content {
+    margin: 1px;
+    padding: 1px;
+    border-top: 2px solid #efefef;
+    overflow-wrap: break-word;
+}
+
+.text {
+    font-family: "Consolas";
+    font-stretch: condensed;
+    margin-left: 1px;
+    margin-top: 0px;
+}
