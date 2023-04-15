@@ -62,7 +62,7 @@ function loadContent() {
       document.querySelector(".title").innerHTML = "230412.txt - Notepad"
       break
     case 230414:
-      p.innerHTML = "sup"
+      p.innerHTML = "hello again! i'm not going to lie, i was not expecting to have to update this so early. however, as they say, spite is the greatest motivator, so datwul sent me his code almost immediately after i posted two days ago. naturally, i did what i always do and rewrote all the javascript (plus some css and html). in addition, i changed some things according to a planning document i made a few months ago. yeah... we first bounced around the idea for a fishing idle game back in february because of a discord bot (lol???), so i made this file to store ideas. you can see some of it in the attached image. yes, it cuts off there.<br><br>by the way, if you want to see the last post, click the word \"File\" at the top. i would have added a dropdown and file menu, but i am in my school's compsci club as i write this and i don't have enough time to add that (i'm also busy tonight), so have this instead. honestly, i'm surprised it worked first try (if you don't count storing the post number as a constant).<br>until next time!!!"
       document.querySelector(".title").innerHTML = "230414.txt - Notepad"
       img.querySelector("img").src = "230414/1.png"
       break
