@@ -1,4 +1,4 @@
-let curPost = 230414
+let curPost = 230423
 
 function $(m) { return document.getElementById(m)}
 
@@ -60,23 +60,33 @@ function loadContent() {
     case 230412: // this is the greatest backend of all time
       p.innerHTML = "hey everyone!<br><br>so i decided to start a blog of the stuff we're getting up to. not really for any reason, but i saw someone post a cooking recipe on github pages, which i thought was really funny for some reason. and then i spent my entire compsci period recreating notepad on windows 10 in css. yes, the icon is wrong because i was too lazy to look for the proper .ico file, plus the minimize/maximize/close buttons are fake. i'll probably develop it more later so things are actually functional, but i just wanted to finish the thing so i could put it up quickly. i did at least put in the bare minimum effort of making the window draggable, though.<br><br>so, what have we been up to lately? well, not much. we've \"started\" work on a new game based around fishing. and by that, i mean datwul has a file called \"quirky fishing game.html\". i have no idea what is in it or when he will inevitably send it to me to fix, but hopefully it will be up soon.<br>ok i just tried to add an image in a separate window and it's making me go insane because the formatting will not work and there's a tiny stupid white bar at the bottom but i'm tired so fuck it. see my ineptitude in all of its glory.<br>(also you can only drag it from the title text)<br><br>erm... yeah i guess that's it. see you whenever i have actual news!"
       document.querySelector(".title").innerHTML = "230412.txt - Notepad"
+      img.querySelector("img").src = "230412/1.png"
       break
     case 230414:
       p.innerHTML = "hello again! i'm not going to lie, i was not expecting to have to update this so early. however, as they say, spite is the greatest motivator, so datwul sent me his code almost immediately after i posted two days ago. naturally, i did what i always do and rewrote all the javascript (plus some css and html). in addition, i changed some things according to a planning document i made a few months ago. yeah... we first bounced around the idea for a fishing idle game back in february because of a discord bot (lol???), so i made this file to store ideas. you can see some of it in the attached image. yes, it cuts off there.<br><br>by the way, if you want to see the last post, click the word \"File\" at the top. i would have added a dropdown and file menu, but i am in my school's compsci club as i write this and i don't have enough time to add that (i'm also busy tonight), so have this instead. honestly, i'm surprised it worked first try (if you don't count storing the post number as a constant).<br>until next time!!!"
       document.querySelector(".title").innerHTML = "230414.txt - Notepad"
       img.querySelector("img").src = "230414/1.png"
       break
+    case 230423:
+      p.innerHTML = "hello! i am back after a whole week (plus 2 days and a couple of hours). i know, it's crazy. anyways, let's get to business. i know everyone is obviously here for the fishing game and nothing else, so here you go. progress on the new update is going pretty well, surprisingly enough. a short peek at the changes i've made so far:<br>- visual changes (you can actually see the pond you're fishing in now)<br>- brand new ui (first ever drunkboisdev project to get a proper one, in fact)<br>- saving (huge!!!)<br><br>so yeah, it's been smooth sailing so far. there's still a lot i have planned, like a research system and different types of fishing tools, but i will give a tentative release date of May 6 (mark your calendars, if you care enough). generally i don't like giving release dates because it makes me feel like the World will End if i miss it, but i think 2 weeks is enough time to finish everything i want to finish.<br><br>there is a lot more on my list of projects i want to work on. for example, i really want to clean up this blog and make it less terrible, i just want to focus on fish for the time being. i'll probably make another post when i release the update, then another when i fix this blog's code (which could be anywhere between tomorrow and when i'm on my deathbed). bye!<br>also, since you might be wondering why the title says blod: i misspelled it, fixed it, decided \"blod\" would be funnier and reverted it<br><br>addendum: i just noticed a bug with the image switching so i had to fix that OK IM ACTUALLY DONE NOW"
+      document.querySelector(".title").innerHTML = "230423.txt - Notepad"
+      img.querySelector("img").src = "230423/1.png"
+      break
   }
 }
 
 function back() {
   switch (curPost) {
+    case 230423:
+      curPost = 230414
+      loadContent()
+      break
     case 230414:
       curPost = 230412
       loadContent()
       break
     case 230412:
-      curPost = 230414
+      curPost = 230423
       loadContent()
       break
   }

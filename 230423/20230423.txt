@@ -1,0 +1,8 @@
+hello! i am back after a whole week (plus 2 days and a couple of hours). i know, it's crazy. anyways, let's get to business. i know everyone is obviously here for the fishing game and nothing else, so here you go. progress on the new update is going pretty well, surprisingly enough. a short peek at the changes i've made so far:
+- visual changes (you can actually see the pond you're fishing in now)
+- brand new ui (first ever drunkboisdev project to get a proper one, in fact)
+- saving (huge!!!)
+
+so yeah, it's been smooth sailing so far. there's still a lot i have planned, like a research system and different types of fishing tools, but i will give a tentative release date of May 6 (mark your calendars, if you care enough). generally i don't like giving release dates because it makes me feel like the World will End if i miss it, but i think 2 weeks is enough time to finish everything i want to finish.
+
+also, not sure if you noticed, but i've taken the time to add some features to this blog, such as the correct image being loaded if you go to previous posts. i should really clean up this javascript, too. i'll probably do that after i release the new fishing update. bye!
