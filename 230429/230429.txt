@@ -1,0 +1,12 @@
+alright what's up everyone. i said i would post another update when the fishing game (still don't know what to call it) update came out, and it is basically ready to ship unless i run into 20 bugs right now, so here you go. there's lots of fun new features to make it more of an actual game and not a click button repeatedly simulator (although it is an idle game, so it's not that far off). "but wait!" i hear you say (not really). "didn't you say it was going to release on the 8th?" well, my executive dysfunction decided to take a break for a few days and i got a bunch of work done. so that was pretty awesome. anyway, some stats about the update, because i love stats:
+- the file size went from 4.2kb to 19.3kb (4.6x increase!)
+- the css file is 2023 bytes (this year)
+- i have two planning files that cover the same thing for some reason
+- this update went through at least 12 sub-updates (i say at least because i only started counting on the 22nd)
+- i could have made $153 in the time it took to make this update if i spent the time working minimum wage instead
+
+ok, when i said "ready to ship" i meant "i got all the programming done i just gotta do the art" and it has inspired a strong hatred of drawing water in me. i can probably get it done for may 1st though just trust me on this one. also i still have to playtest, make sure the cost curve makes sense, make sure there aren't any really dumb bugs (of which there are MANY i have had to iron out so far), so actually maybe later. next week for sure though mark my words.
+
+now that that's done, the next thing on the horizon is this blog. i do want to improve it, it's just that the thought of rewriting that abhorrent rushed mess manages to deter me every time. one of these days, i will overcome it and it will be awesome. until then, not as awesome. then after that, the next fishing update. i don't have any plans besides vague ideas, so it'll be a while coming (likely late May or after). after that, who knows?
+
+also, i had a dream last night where some kids blew up a cartoon tnt box and caused the destruction of a railroad, four bridges and a canyon. see you next time!
