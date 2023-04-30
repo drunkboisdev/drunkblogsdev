@@ -1,4 +1,4 @@
-let curPost = 230423
+let curPost = 230429
 
 function $(m) { return document.getElementById(m)}
 
@@ -53,7 +53,7 @@ function loadContent() {
   const img = $("image")
 
   np.style.width = "800px"
-  np.style.height = "600px"
+  np.style.height = "800px"
   img.style.left = "820px" // this doesn't work if i put it in the html file for some reason???
   // too lazy to store the text in a separate text file + i'm lazy
   switch (curPost) {
@@ -72,11 +72,20 @@ function loadContent() {
       document.querySelector(".title").innerHTML = "230423.txt - Notepad"
       img.querySelector("img").src = "230423/1.png"
       break
+    case 230429:
+      p.innerHTML = "alright what's up everyone. i said i would post another update when the fishing game (still don't know what to call it) update came out, and it is basically ready to ship unless i run into 20 bugs right now, so here you go. there's lots of fun new features to make it more of an actual game and not a click button repeatedly simulator (although it is an idle game, so it's not that far off). \"but wait!\" i hear you say (not really). \"didn't you say it was going to release on the 8th?\" well, my executive dysfunction decided to take a break for a few days and i got a bunch of work done. so that was pretty awesome. anyway, some stats about the update, because i love stats:<br>- the file size went from 4.2kb to 19.3kb (4.6x increase!)<br>- the css file is 2023 bytes (this year)<br>- i have two planning files that cover the same thing for some reason<br>- this update went through at least 12 sub-updates (i say at least because i only started counting on the 22nd)<br>- i could have made $153 in the time it took to make this update if i spent the time working minimum wage instead<br><br>ok, when i said \"ready to ship\" i meant \"i got all the programming done i just gotta do the art\" and it has inspired a strong hatred of drawing water in me. i can probably get it done for may 1st though just trust me on this one. also i still have to playtest, make sure the cost curve makes sense, make sure there aren't any really dumb bugs (of which there are MANY i have had to iron out so far), so actually maybe later. next week for sure though mark my words.<br><br>now that that's done, the next thing on the horizon is this blog. i do want to improve it, it's just that the thought of rewriting that abhorrent rushed mess manages to deter me every time. one of these days, i will overcome it and it will be awesome. until then, not as awesome. then after that, the next fishing update. i don't have any plans besides vague ideas, so it'll be a while coming (likely late May or after). after that, who knows?<br><br>also, i had a dream last night where some kids blew up a cartoon tnt box and caused the destruction of a railroad, four bridges and a canyon. see you next time!<br><br>if you notice the window is bigger, i had to extend the box because there was too much text lol"
+      document.querySelector(".title").innerHTML = "230429.txt - Notepad"
+      img.querySelector("img").src = "230429/1.png"
+      break
   }
 }
 
 function back() {
   switch (curPost) {
+    case 230429:
+      curPost = 230423
+      loadContent()
+      break
     case 230423:
       curPost = 230414
       loadContent()
@@ -86,7 +95,7 @@ function back() {
       loadContent()
       break
     case 230412:
-      curPost = 230423
+      curPost = 230429
       loadContent()
       break
   }
