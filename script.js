@@ -1,4 +1,9 @@
-let curPost = 230429
+let curPost = 230607
+const postData = new Map()
+
+// unfinished but IDC go fuck yourself
+postData.set(230412, "hey everyone!<br><br>so i decided to start a blog of the stuff we're getting up to. not really for any reason, but i saw someone post a cooking recipe on github pages, which i thought was really funny for some reason. and then i spent my entire compsci period recreating notepad on windows 10 in css. yes, the icon is wrong because i was too lazy to look for the proper .ico file, plus the minimize/maximize/close buttons are fake. i'll probably develop it more later so things are actually functional, but i just wanted to finish the thing so i could put it up quickly. i did at least put in the bare minimum effort of making the window draggable, though.<br><br>so, what have we been up to lately? well, not much. we've \"started\" work on a new game based around fishing. and by that, i mean datwul has a file called \"quirky fishing game.html\". i have no idea what is in it or when he will inevitably send it to me to fix, but hopefully it will be up soon.<br>ok i just tried to add an image in a separate window and it's making me go insane because the formatting will not work and there's a tiny stupid white bar at the bottom but i'm tired so fuck it. see my ineptitude in all of its glory.<br>(also you can only drag it from the title text)<br><br>erm... yeah i guess that's it. see you whenever i have actual news!")
+
 
 function $(m) { return document.getElementById(m)}
 
@@ -77,11 +82,18 @@ function loadContent() {
       document.querySelector(".title").innerHTML = "230429.txt - Notepad"
       img.querySelector("img").src = "230429/1.png"
       break
+    case 230607:
+      p.innerHTML = "non-binary, pronouns any/all.<br><br><br><br><br>BY THE WAY SORRY FOR NO FISHING OR ANYTHING THE PAST MONTH DEMOTIVATION HAS BEEN BEATING MY ASS<br>that will be all, time to disappear for another month.<br>and yes, i know the margins on the image are fucked up i'm just too lazy to fix it"
+      document.querySelector(".title").innerHTML = "revelation.txt - Notepad"
+      img.querySelector("img").src = "230607/1.png"
   }
 }
 
 function back() {
   switch (curPost) {
+    case 230607:
+      curPost = 230429
+      loadContent()
     case 230429:
       curPost = 230423
       loadContent()
@@ -95,8 +107,21 @@ function back() {
       loadContent()
       break
     case 230412:
-      curPost = 230429
+      curPost = 230607
       loadContent()
       break
   }
 }
+// todo
+/*
+- redo how posts are stored
+- make the file button actually open up a dialog for selecting different files
+  - new (disabled)
+  - new window (disabled)
+  - open (opens file select)
+  - save (disabled)
+  - save as (disabled)
+  - page setup (disabled)
+  - print (disabled)
+  - exit (closes window)
+*/
