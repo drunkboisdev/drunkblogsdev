@@ -4,7 +4,7 @@
         <title>blod</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body onload="loadContent()">
+    <body onload="init()">
         <div class="window" id="notepad">
             <div class="ui" id="notepadHeader">
                 <img src="notepadIcon.png" class="icon">
@@ -25,10 +25,10 @@
             </div>
         </div>
         <div class="window" id="image">
-            <div class="ui" style="height: 25px; padding-left: 7px;">
-                <p class="title" id="imageHeader">Image</p>
+            <div class="ui" style="height: 25px; padding-left: 7px;" id="imageHeader">
+                <p class="title">Image</p>
             </div>
-            <img src="230412/1.png">
+            <img>
         </div>
     </body>
     <script src="script.js"></script>

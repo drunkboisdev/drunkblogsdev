@@ -1,0 +1,14 @@
+alright, i finally got off my lazy ass to make this blod slightly less terrible.
+
+i fixed the bug where the image always snaps back to the middle of the screen when you drag it. i also fixed the thing where you can only drag the image with the title text (it was such an easy fix i literally just moved an id to a different element). unfortunately the fucked up margins around the image are staying because i have Zero Clue why it's happening
+i also redid some of the javascript but that's like barely noteworthy (i am going to beat my head into a wall)
+
+anyways, onto fishing. i've devised a rough roadmap of what i want to add to the game, so we are on track to quote-unquote "finish" the game by summer 2024. yeah i know, that's a year away but this project isn't going to die this time i pinky promise i won't abandon it (hey google set a reminder for december 19 2023)
+so since the last update's release, i've decided to put the game into beta. this is since the game looks (and is) very unfinished. it will leave beta whenever i consider the game finished (which, as above, is a year away). i will continue developing after that (if i even get that far) since it's an idle game and constant progress is its whole thing but for all intents and purposes, that will be the first complete version.
+
+this next fishing update, the first beta, will most likely not come out before july. the reason for this is because this next update will be focused largely around graphics, because personally i am sick and tired of staring at a blinding white screen. however art is hard, so if you want to help (and your discord username is not datwul.) then let me know.
+
+after that, the next updates will revolve around new gameplay features, such as nets and achievements. and if you're asking how much content i plan to add to fill a whole year, you'd be surprised.
+if you want a peek at my evil plans, try decoding this. yeah, you'll have to work for this one.
+
+hzsamfhfqliqbsjamwoegimk
